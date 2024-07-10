@@ -243,3 +243,23 @@ nav {
   padding: 40px 0;
 }
 
+footer{
+  background-color: rgb(223, 223, 223);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+
+}
+footer> div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social{
+  display: flex;
+  gap: 20px;
+}
+
+
