@@ -57,3 +57,75 @@ nav {
   border-radius: 10px;
   padding: 20px;
 }
+
+.mainSecitionforCard {
+  background-color: rgba(223, 223, 223, 0.248);
+  border-radius: 20px;
+  margin: 50px 0;
+  padding: 97px;
+  padding-top: 0;
+}
+
+.titlediv {
+  padding: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.itemsCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.itemsAll{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+}
+
+.signleItem{
+  background-color: white;
+
+}
+
+.signleItem{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+
+}
+.itemDetails{
+  width: 550px;
+  display: flex;
+  
+
+  justify-content: space-between;
+  flex-direction: column;
+
+}
+
+.itemDetails > p{
+  line-height: 2;
+}
+.itemDetails > a{
+  border: 1px solid black;
+ font-weight: 800;
+
+ color: black;
+  width: 120px;
+  padding: 20px 25px;
+  text-decoration: none;
+  
+  
+}
+
+.signleItem:nth-child(2){
+  justify-content: start;
+  gap: 32px;
+}
+
